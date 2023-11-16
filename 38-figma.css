@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #3b5b50;
+  height: 600px;
+}
+
+.navbar {
+  color: white;
+  font-size: 16px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 140px;
+}
+
+.logo {
+  width: 70px;
+  object-fit: contain;
+}
+
+.section2 {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.section2 p {
+  border-bottom: 3px solid #3b5b50;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.section2 p:hover {
+  border-bottom: 3px solid #f9bf29;
+}
+
+.home {
+  border-bottom: 3px solid #f9bf29 !important;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.heading h1 {
+  color: white;
+  width: 300px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.shop {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.shop button {
+  height: fit-content;
+  border: none;
+  border-radius: 30px;
+  padding: 5px 10px;
+  background-color: #f9bf29;
+}
+
+.shop img {
+  width: 600px;
+  margin-left: 150px;
+}
+.main {
+  display: flex;
+  gap: 30px;
+  margin: 100px;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid rgb(210, 210, 210);
+  padding: 10px;
+}
+.card img {
+  width: 100%;
+}
